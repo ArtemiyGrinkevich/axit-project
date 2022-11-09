@@ -1,0 +1,21 @@
+.footer{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    height: 164px;
+    background-color: #000;
+}
+.footer-content {
+    display: flex;  
+    flex-direction: column;
+}
+.footer__social-networks {
+    display: flex;
+    justify-content: center; 
+    gap: 50px; 
+}
+.footer-text {
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+}
