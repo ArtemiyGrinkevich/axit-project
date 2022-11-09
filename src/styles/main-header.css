@@ -1,0 +1,23 @@
+.main-header {
+    background-color: #000;   
+}
+.main-header__container {
+    max-width: 1300px;
+}
+.main-header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header__navigation-list {
+    
+    display: flex;
+    gap: 20px;
+}
+.main-header__navigation-link {
+    text-decoration:none;
+    text-transform:none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
