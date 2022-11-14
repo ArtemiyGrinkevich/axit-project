@@ -1,20 +1,26 @@
 .tabs {
     padding-top: 100px;
+    
 }
+
 .tabs__button {
     border: none;
     background-color: #fff;
     padding: 15px 95px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
+    
 }
 .tabs__button--active {
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    position: relative;
+    top: 1px;
 }
 .tabs__content {
     display: flex;   
+    
 }
 .tabs__content-text {
     
@@ -22,6 +28,7 @@
     border: 1px solid;
     border-right: none;
     padding-top: 60px;
+    
 }
 .tabs__content-title {
     font-family: 'Open Sans', sans-serif;
@@ -41,7 +48,7 @@ padding-top: 27px;
 line-height: 30px;
 padding-bottom: 27px;
 }
-.tabs__content-download {
+.button-download {
     
     font-family: 'Open Sans', sans-serif;
 font-size: 18px;
@@ -51,8 +58,4 @@ text-align: center;
 background-color:rgba(236, 121, 121, 1) ;
 height: 58px;
 width: 270px;
-}
-.link-download{
-    text-decoration: none;
-    color: #fff;
-}
+color: #fff;}

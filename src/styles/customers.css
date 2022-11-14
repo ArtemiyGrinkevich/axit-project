@@ -1,0 +1,62 @@
+.custom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.customers-content__column {
+    padding-top: 33px;
+    
+}
+.customers-content__column-statement {
+    max-width: 370px;
+    text-align: center;
+    background-color: rgba(226, 226, 226, 1);
+    border-radius: 10px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+padding: 38px 15px 37px 15px;
+color: rgba(134, 135, 139, 1);
+
+
+}
+.customers-content__column-statement::after{
+content: '';
+height: 0;
+width: 0;
+border-top: 20px solid rgba(226, 226, 226, 1);
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+position: absolute;
+right: 280px;
+top: 180px;
+
+}
+.customers-content__column-card {
+    display: flex;
+    gap: 30px;
+    padding: 66px 0 64px 0;
+}
+.customers-content__column-customers-information{
+    display: flex;
+    flex-direction: column;
+}
+.customers-content__column-customers-name {
+    font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+text-align: left;
+padding-bottom: 15px;
+}
+.customers-content__column-profession {
+    font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+
+}
